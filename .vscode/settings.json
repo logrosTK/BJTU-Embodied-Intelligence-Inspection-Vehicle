@@ -1,0 +1,22 @@
+{
+    "python.analysis.extraPaths": [
+        "C:\\Users\\logros\\.kendryte\\k230_canmv_stubs\\c6dd8beaf3f4444ceba380e8a61a8db8515d76a1"
+    ],
+    "python.analysis.stubPath": "C:\\Users\\logros\\.kendryte\\k230_canmv_pylance\\569009839fa2cbef\\typings",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none"
+    },
+    "cmake.cmakePath": "cube-cmake",
+    "cmake.configureArgs": [
+        "-DCMAKE_COMMAND=cube-cmake"
+    ],
+    "cmake.preferredGenerators": [
+        "Ninja"
+    ],
+    "stm32cube-ide-clangd.path": "cube",
+    "stm32cube-ide-clangd.arguments": [
+        "starm-clangd",
+        "--query-driver=${env:CUBE_BUNDLE_PATH}/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc*",
+        "--query-driver=${env:CUBE_BUNDLE_PATH}/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-g++*"
+    ]
+}
